@@ -1,0 +1,1 @@
+ALTER TABLE "User" ADD COLUMN "resetTokenHash" TEXT, ADD COLUMN "resetTokenExpiry" TIMESTAMP(3);

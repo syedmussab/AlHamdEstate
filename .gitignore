@@ -1,0 +1,23 @@
+# Logs
+*.log
+server.err.log
+dev-server.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Dependencies / builds
+node_modules/
+dist/
+.next/
+**/src/generated/
+
+# Agent tooling
+.agents/
+skills-lock.json
